@@ -41,9 +41,11 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Tags",
     "//docs",
-    "//docs/docs/lib"
+    "//docs/docs/lib",
+    "//Tags",
+    "//docs/docs/lib/docs/lib/fonts",
+    "//docs/docs/lib/docs/lib/html"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -61,7 +63,7 @@
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
-  "inlineContextExpanded": true,
+  "inlineContextExpanded": false,
   "inlineContextSectionsExpanded": true,
   "dataviewInlineContext": false,
   "inlineContextNameLayout": "vertical",

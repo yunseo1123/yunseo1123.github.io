@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "Tags/#^.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "Tags/#^.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "Tags/#^.md"
               }
             }
           }
@@ -159,11 +159,52 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e85638fcd2d3f4e4",
+  "floating": {
+    "id": "7fbcd241666f5136",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7f31de9b36c51c4a",
+        "type": "window",
+        "children": [
+          {
+            "id": "8508f6160f8b2591",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7318e7db8c9fa79b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Tags/#^ 1.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 190,
+        "y": 180,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7318e7db8c9fa79b",
   "lastOpenFiles": [
-    "test.md",
     "README.md",
+    "Untitled.md",
     "index.md",
+    "Tags/모구모구.md",
+    "test.md",
+    "Tags/#^ 1.md",
+    "Tags/#^.md",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "docs/lib/search-index.json",
