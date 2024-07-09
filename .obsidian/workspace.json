@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tags/#^.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tags/#^.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tags/#^.md"
+                "file": "index.md"
               }
             }
           }
@@ -196,14 +196,15 @@
       }
     ]
   },
-  "active": "7318e7db8c9fa79b",
+  "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
     "README.md",
+    "test.md",
+    "20240707 모구모구 활동.md",
+    "Tags/#^ 1.md",
     "Untitled.md",
     "index.md",
     "Tags/모구모구.md",
-    "test.md",
-    "Tags/#^ 1.md",
     "Tags/#^.md",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
