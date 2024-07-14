@@ -1,12 +1,5 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yunseo1123.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>yunseo1123.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 12 Jul 2024 03:15:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 12 Jul 2024 03:15:47 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[20240707 (1회차)]]></title><description><![CDATA[<a class="tag" href="?query=tag:장점" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#장점</a> 
- <br>&lt; 파이토치 &gt;<br>-인공 지능 분야에서 주로 활용되는 오픈 소스 소프트웨어 라이브러리 <br>-Python을 바탕으로 제작되었고, Torch라는 라이브러리를 바탕으로 제작됨(Torch는 Lua라는 프로그래밍 언어를 기반으로 만들어진 인공 지능 분야의 라이브러리로, 그것에 기반한 파이토치가 활발하게 활용되고 발전하고 있다.)<br><a href=".?query=tag:장점" class="tag" target="_blank" rel="noopener">#장점</a><br>
--설치가 간편함<br>
--이해와 디버깅이 쉬운 직관적이고 간결한 코드로 구성됨<br>
--파이썬 라이브러리(Numpy, Scipy, Cython)와 높은 호환성을 가짐<br>
--모델 그래프를 만들 때 고정상태가 아니기 때문에 언제든지 데이터에 따라 조절이 가능<br>
--학습 및 추론 속도가 빠르고 다루기 쉬움<br>&lt; CNN &gt;<br>-Convolutional Neural Networks의 약자로 딥러닝에서 주로 이미지나 영상 데이터를 처리할 때 쓰이며, Convolution이라는 전처리 작업이 들어가는 Neural Network 모델<br>-이미지를 날것 그대로 받음으로써 공간적, 지역적 정보를 유지한 채 특성들의 계층을 빌드업함.<br>
-(2차원 형태의 이미지가 입력값이 되는 경우 이미지의 공간적 지역적 정보가 손실되고 효율이 떨어지는 DNN과 비교됨)<br>-이미지 전체보다는 부분을 보아 이미지의 한 픽셀과 주변 픽셀들의 연관성을 살린다는 특성이 있음.]]></description><link>20240707-(1회차).html</link><guid isPermaLink="false">20240707 (1회차).md</guid><pubDate>Sun, 07 Jul 2024 06:03:15 GMT</pubDate></item><item><title><![CDATA[파이토치]]></title><description><![CDATA[ 
- <br>오늘 목표: 파이토치 공부하기<br><br><br>텐서는 배열이나 행렬과 매우 유사하고 특수한 자료구조이다. 파이토치에서는 텐서를 이용해 모델의 입력과 출력, 모델의 매개변수들을 부호화한다.<br>import torch
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yunseo1123.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>yunseo1123.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 14 Jul 2024 11:11:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 14 Jul 2024 11:11:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[파이토치]]></title><description><![CDATA[ 
+ <br>오늘 목표:  파이토치 공부하기<br><br><br>텐서는 배열이나 행렬과 매우 유사하고 특수한 자료구조이다. 파이토치에서는 텐서를 이용해 모델의 입력과 출력, 모델의 매개변수들을 부호화한다.<br>import torch
 import numpy as np
 Copy<br><br>데이터로부터 직접 생성하기<br>data = [[1, 2],[3, 4]]
 x_data = torch.tensor(data)
@@ -28,7 +21,14 @@ n = t.numpy()
 print(f"n: {n}")
 Copy<br><br>n = np.ones(5)
 t = torch.from_numpy(n)
-Copy]]></description><link>20240709-(2회차)-.md\20240709-(2회차)-.md.html</link><guid isPermaLink="false">20240709 (2회차) .md</guid><pubDate>Tue, 09 Jul 2024 23:46:44 GMT</pubDate></item><item><title><![CDATA[Obsidian template for using github.io]]></title><description><![CDATA[<a class="tag" href="?query=tag:장점" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#장점</a> 
+Copy]]></description><link>20240709-(2회차)-.md\20240709-(2회차)-.md.html</link><guid isPermaLink="false">20240709 (2회차) .md</guid><pubDate>Sun, 14 Jul 2024 11:09:50 GMT</pubDate></item><item><title><![CDATA[20240707 (1회차)]]></title><description><![CDATA[<a class="tag" href="?query=tag:장점" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#장점</a> 
+ <br>&lt; 파이토치 &gt;<br>-인공 지능 분야에서 주로 활용되는 오픈 소스 소프트웨어 라이브러리 <br>-Python을 바탕으로 제작되었고, Torch라는 라이브러리를 바탕으로 제작됨(Torch는 Lua라는 프로그래밍 언어를 기반으로 만들어진 인공 지능 분야의 라이브러리로, 그것에 기반한 파이토치가 활발하게 활용되고 발전하고 있다.)<br><a href=".?query=tag:장점" class="tag" target="_blank" rel="noopener">#장점</a><br>
+-설치가 간편함<br>
+-이해와 디버깅이 쉬운 직관적이고 간결한 코드로 구성됨<br>
+-파이썬 라이브러리(Numpy, Scipy, Cython)와 높은 호환성을 가짐<br>
+-모델 그래프를 만들 때 고정상태가 아니기 때문에 언제든지 데이터에 따라 조절이 가능<br>
+-학습 및 추론 속도가 빠르고 다루기 쉬움<br>&lt; CNN &gt;<br>-Convolutional Neural Networks의 약자로 딥러닝에서 주로 이미지나 영상 데이터를 처리할 때 쓰이며, Convolution이라는 전처리 작업이 들어가는 Neural Network 모델<br>-이미지를 날것 그대로 받음으로써 공간적, 지역적 정보를 유지한 채 특성들의 계층을 빌드업함.<br>
+(2차원 형태의 이미지가 입력값이 되는 경우 이미지의 공간적 지역적 정보가 손실되고 효율이 떨어지는 DNN과 비교됨)<br>-이미지 전체보다는 부분을 보아 이미지의 한 픽셀과 주변 픽셀들의 연관성을 살린다는 특성이 있음.]]></description><link>20240707-(1회차).html</link><guid isPermaLink="false">20240707 (1회차).md</guid><pubDate>Sun, 07 Jul 2024 06:03:15 GMT</pubDate></item><item><title><![CDATA[Obsidian template for using github.io]]></title><description><![CDATA[<a class="tag" href="?query=tag:장점" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#장점</a> 
  <br><br>20240707<br>&lt; 파이토치 &gt;<br>-인공 지능 분야에서 주로 활용되는 오픈 소스 소프트웨어 라이브러리 <br>-Python을 바탕으로 제작되었고, Torch라는 라이브러리를 바탕으로 제작됨(Torch는 Lua라는 프로그래밍 언어를 기반으로 만들어진 인공 지능 분야의 라이브러리로, 그것에 기반한 파이토치가 활발하게 활용되고 발전하고 있다.)<br><a href=".?query=tag:장점" class="tag" target="_blank" rel="noopener">#장점</a><br>
 -설치가 간편함<br>
 -이해와 디버깅이 쉬운 직관적이고 간결한 코드로 구성됨<br>
