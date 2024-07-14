@@ -45,7 +45,8 @@
     "//docs/docs/lib",
     "//Tags",
     "//docs/docs/lib/docs/lib/fonts",
-    "//docs/docs/lib/docs/lib/html"
+    "//docs/docs/lib/docs/lib/html",
+    "//docs/docs/20240709-(2회차)-.md"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
